@@ -8,23 +8,24 @@
     <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    <h3>Temperature Converter</h3>
+    <div id="wholeThang">
+    <h2>Insert the temperature you want converted:</h2>
     <div>
         <input type="number" id="tempInput">
     </div>
-    <div>
-        <input type="radio" name="temp" value="C">Celsius</input>
-        <input type="radio" name="temp" value="F">Fahrenheit</input>
+    <h3>Which unit do you want to know?</h3>
+    <div class="radio-buttons">
+        <input type="radio" name="temp" id="Celsius" value="C">Celsius</input>
+        <input type="radio" name="temp" id="Fahrenheit" value="F">Fahrenheit</input>
     </div>
     <div>
         <button type="button" id="convertBtn">Convert</button>
         <button type="button" id="clearBtn">Clear</button>
     </div>
 
-    <div>
-        <input type="number" id="tempOutput">
+    <div id="tempOutput">  
     </div>
-    
+    </div>
 
     <script src="./main.js"></script>
 </body>
