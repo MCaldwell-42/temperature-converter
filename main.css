@@ -1,3 +1,29 @@
 body {
-    background-color: firebrick;
+    background-color: rgb(116, 240, 143);
+    text-align: center;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+  
+    
+    
+}
+.radio-buttons {
+    flex-direction: row;
+    justify-content: center;
+}
+
+#tempInput {
+    height: 25px;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+button {
+    height: 25px;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top: 15px;
 }
