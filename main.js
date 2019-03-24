@@ -23,6 +23,7 @@ const determineConverter = (e) => {
         };
         newTemp = Math.round(newTemp);    
         domString += `<h3>${newTemp}</h3>`;
+        domString +=`deg ${tempType} `;
     
     
     console.log(tempInput);
