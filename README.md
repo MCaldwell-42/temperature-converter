@@ -3,7 +3,7 @@ Displays a website that performs a simple temperature conversion from F to C and
 
 # Screenshots
 
-![alt text]()
+![Screenshot](https://raw.githubusercontent.com/MCaldwell-42/temperature-converter/master/TempScreenShot.png)
 
 # Getting Started
 
