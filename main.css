@@ -1,15 +1,14 @@
 body {
     background-color: rgb(116, 240, 143);
     text-align: center;
+    margin: 0px;
 }
 
 div {
     display: flex;
     flex-direction: column;
-  
-    
-    
 }
+
 .radio-buttons {
     flex-direction: row;
     justify-content: center;
@@ -34,3 +33,37 @@ button {
     display: flex;
     align-items: center;
 }
+#navbar {
+    display: flex;
+    flex-direction: row;
+}
+#navbar_box {
+    display: block;
+    background-color: #dddddd;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    border: black solid 4px;
+}
+
+#nav_item_1 {
+    padding-right: 30em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li {
+    display: inline;
+}
+
+a {
+    padding: 8px;
+  }
+li a:hover {
+    background-color: #111;
+  }
