@@ -9,6 +9,10 @@ div {
     flex-direction: column;
 }
 
+#logo {
+    width: 40px;
+    height: 40px;
+}
 .radio-buttons {
     flex-direction: row;
     justify-content: center;
@@ -58,7 +62,7 @@ ul {
   }
 
 li {
-    display: inline;
+    display: inline-block;
 }
 
 a {
